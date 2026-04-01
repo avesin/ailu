@@ -7,10 +7,10 @@ ailu is a React Native app designed to help clients chat with ChatGPT, Gemini AI
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td align="center">
-      <img src="https://res.cloudinary.com/dtfr5rwgo/image/upload/v1775035761/Screenshot_1775035737_onzehi.png" alt="Screenshot 1" width="150"/>
+      <img src="https://res.cloudinary.com/dtfr5rwgo/image/upload/v1775035761/Screenshot_1775035737_onzehi.png" alt="Screenshot 1" width="50%"/>
     </td>
     <td align="center">
-      <img src="https://res.cloudinary.com/dtfr5rwgo/image/upload/v1775035766/Screenshot_1775035733_yczeju.png" alt="Screenshot 2" width="150"/>
+      <img src="https://res.cloudinary.com/dtfr5rwgo/image/upload/v1775035766/Screenshot_1775035733_yczeju.png" alt="Screenshot 2" width="50%"/>
     </td>
   </tr>
 </table>
