@@ -1,4 +1,3 @@
-
 # ailu
 
 ailu is a React Native app designed to help clients chat with ChatGPT, Gemini AI, and custom LLM servers. Built with Expo, Redux, and Expo Router, it provides a modern, mobile-first chat experience.
@@ -33,6 +32,24 @@ ailu is a React Native app designed to help clients chat with ChatGPT, Gemini AI
 - `src/features/chat/` — Chat logic and state
 - `src/redux/` — Redux store and slices
 - `src/core/` — API, theme, and utilities
+
+## Main Libraries & Implementation
+
+- **expo**: The core framework for building and running the app. Handles development, building, and device compatibility.
+- **expo-router**: Provides file-based routing. All navigation is managed by the folder and file structure in the `app/` directory, including nested and dynamic routes.
+- **react-native**: The base framework for building native mobile apps using JavaScript/TypeScript.
+- **react-native-paper**: Implements Material Design UI components. Used for theming, buttons, text inputs, surfaces, and overall app styling.
+- **@react-navigation/drawer**: Enables drawer navigation. The drawer is defined in `app/(drawer)/_layout.tsx` and used for main app navigation.
+- **@reduxjs/toolkit**, **redux**, **react-redux**: State management. The Redux store is set up in `src/redux/store.ts`, with slices for chat and LLM state in `src/features/chat/` and `src/redux/`.
+- **redux-persist**: Persists Redux state (e.g., chat history) across app restarts. Integrated in the Redux store setup.
+- **@react-native-async-storage/async-storage**: Used by redux-persist to store data locally on the device.
+- **axios**: Handles HTTP requests to LLM servers and AI APIs. Used in `src/core/api/llm_api.ts`.
+- **@expo/vector-icons**: Provides icon support for UI components (e.g., buttons, navigation).
+- **react-native-gesture-handler**, **react-native-reanimated**, **react-native-screens**, **react-native-safe-area-context**: Required for navigation, gestures, animations, and safe area handling in React Native apps.
+
+### Development Tools
+- **typescript**: Type safety throughout the codebase.
+- **eslint**, **eslint-config-expo**: Linting and code quality.
 
 ## Requirements
 
